@@ -68,7 +68,7 @@ const {
 } = NativeModules;
 
 const SERVER_URL =
-  'https://angela-molecular-workshop-attitude.trycloudflare.com';
+  'https://retailers-exhibits-pty-corporations.trycloudflare.com';
 
 const STORAGE_USER_ID =
   '@lobby/userId';
@@ -3655,15 +3655,15 @@ export default function HomeScreen() {
   ) {
     voiceStatusText =
       micEnabled
-        ? 'PROXIMITY VOICE ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ MIC ON'
-        : 'PROXIMITY VOICE ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ MIC MUTED';
+        ? 'PROXIMITY VOICE \u00B7 MIC ON'
+        : 'PROXIMITY VOICE \u00B7 MIC MUTED';
   } else if (
     voiceConnected
   ) {
     voiceStatusText =
       micEnabled
-        ? 'VOICE CONNECTED ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ MIC ON'
-        : 'VOICE CONNECTED ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ MIC MUTED';
+        ? 'VOICE CONNECTED \u00B7 MIC ON'
+        : 'VOICE CONNECTED \u00B7 MIC MUTED';
   } else if (
     micEnabled
   ) {
@@ -3882,7 +3882,7 @@ export default function HomeScreen() {
             <Text style={styles.sectionTitle}>PARTY</Text>
             {partyCode && (
               <Text style={styles.sectionMeta}>
-                {partyCode} Ã‚Â· {partyMemberCount}
+                {partyCode} {'\u00B7'} {partyMemberCount}
               </Text>
             )}
           </View>
@@ -4182,7 +4182,7 @@ export default function HomeScreen() {
 
         <View style={styles.telemetryBar}>
           <Text style={styles.telemetryText}>
-            {serverConnected ? 'Ã¢â€”Â ONLINE' : 'Ã¢â€”â€¹ OFFLINE'}
+            {serverConnected ? '\u25CF ONLINE' : '\u25CB OFFLINE'}
           </Text>
           <Text style={styles.telemetryText}>
             PARTY {partyCode ? partyMemberCount : 0}
@@ -4383,6 +4383,7 @@ const styles = StyleSheet.create({
     height: '100%',
   },
 });
+
 
 
 

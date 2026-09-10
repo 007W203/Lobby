@@ -53,3 +53,6 @@ yarn-error.log*
 android/app/.cxx/
 android/.kotlin/
 .cxx/
+
+# Intermediate branding asset
+assets/lobby-icon-android-safe.png

@@ -1,4 +1,4 @@
-﻿# Lobby
+# Lobby
 
 ## Real-World Proximity Voice
 
@@ -13,12 +13,18 @@ Instead of joining a conventional voice room, users can become available to peop
 Lobby has been tested on three physical Android devices simultaneously, with each device detecting the other two through live proximity updates.
 
 <p align="center">
+  <img src="docs/demo/lobby-highlight.webp" width="75%" alt="Lobby three-phone proximity voice demo">
+</p>
+
+<p align="center"><em>Live three-device proximity and voice testing on physical Android hardware.</em></p>
+
+<p align="center">
   <img src="docs/screenshots/lobby-proximity-audio.png" width="32%" alt="Lobby proximity audio controls">
   <img src="docs/screenshots/lobby-mic-proximity-controls.jpg" width="32%" alt="Lobby microphone and proximity controls">
   <img src="docs/screenshots/lobby-three-phone-test.png" width="32%" alt="Lobby three-phone physical-device test">
 </p>
 
-[Watch the three-phone demo](docs/demo/lobby-three-phone-demo.mp4)
+[Watch the full three-phone demo](docs/demo/lobby-three-phone-demo.mp4)
 
 ## What It Demonstrates
 

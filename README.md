@@ -123,5 +123,9 @@ Lobby is an engineering prototype rather than a production service. Remaining wo
 
 ## License
 
-See LICENSE.
+Lobby is publicly viewable for portfolio, demonstration, and evaluation purposes.
 
+All rights are reserved. The source code and project assets may not be reused,
+modified, redistributed, or commercialized without permission.
+
+See [LICENSE](LICENSE) for details.

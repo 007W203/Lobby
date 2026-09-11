@@ -8,6 +8,18 @@ Instead of joining a conventional voice room, users can become available to peop
 
 > **Status:** Working Android prototype. Not yet production-ready.
 
+## Demo
+
+Lobby has been tested on three physical Android devices simultaneously, with each device detecting the other two through live proximity updates.
+
+<p align="center">
+  <img src="docs/screenshots/lobby-proximity-audio.png" width="32%" alt="Lobby proximity audio controls">
+  <img src="docs/screenshots/lobby-mic-proximity-controls.jpg" width="32%" alt="Lobby microphone and proximity controls">
+  <img src="docs/screenshots/lobby-three-phone-test.png" width="32%" alt="Lobby three-phone physical-device test">
+</p>
+
+[Watch the three-phone demo](docs/demo/lobby-three-phone-demo.mp4)
+
 ## What It Demonstrates
 
 - GPS-based proximity detection
@@ -112,3 +124,4 @@ Lobby is an engineering prototype rather than a production service. Remaining wo
 ## License
 
 See LICENSE.
+
